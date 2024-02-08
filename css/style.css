@@ -387,8 +387,7 @@ main {
   vertical-align: top;
   border: 1px solid #212122;
   color: #fff;
-  text-wrap: nowrap;
-
+  white-space: nowrap;
 }
 
 .resp-tab th {
