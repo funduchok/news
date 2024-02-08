@@ -379,7 +379,7 @@ main {
   width: 179px;
   height: 40px;
   background: #2c2c2e;
-  white-space: nowrap;
+  word-wrap: none;
 }
 
 .resp-tab th,
