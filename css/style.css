@@ -1,46 +1,74 @@
-@font-face {
-  font-family: 'SF Pro Text';
-  src: url(/fonts/SF-Pro-Text-Regular.otf) format('otf');
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'SF Pro Display';
-  src: url(/fonts/SF-Pro-Text-Semibold.otf) format('otf');
-  font-weight: 600;
-}
-
-body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, button, input, p, blockquote, th, td {
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+button,
+input,
+p,
+blockquote,
+th,
+td {
   margin: 0;
   padding: 0;
 }
 
-fieldset, img {
+fieldset,
+img {
   border: 0;
 }
 
-img, object, embed {
+img,
+object,
+embed {
   vertical-align: bottom;
 }
 
-address, caption, cite, code, dfn, em, th, var {
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+th,
+var {
   font-style: normal;
   font-weight: normal;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-caption, th {
+caption,
+th {
   text-align: left;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-size: 100%;
 }
 
-q:before, q:after {
+q:before,
+q:after {
   content: "";
 }
 
@@ -71,7 +99,8 @@ input {
   box-sizing: border-box;
 }
 
-*:before, *:after {
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
@@ -90,7 +119,7 @@ html {
 }
 
 body {
-  font: 400 16px/1.2 "SF Pro Text", sans-serif;
+  font: 400 16px/1.2 'Roboto', sans-serif;
   background-color: #000;
 }
 
@@ -147,6 +176,7 @@ header {
   letter-spacing: -0.03em;
   color: #a0a0a0;
 }
+
 .search-text input:-ms-input-placeholder {
   font-weight: 400;
   font-size: 16px;
@@ -154,6 +184,7 @@ header {
   letter-spacing: -0.03em;
   color: #a0a0a0;
 }
+
 .search-text input::-ms-input-placeholder {
   font-weight: 400;
   font-size: 16px;
@@ -161,6 +192,7 @@ header {
   letter-spacing: -0.03em;
   color: #a0a0a0;
 }
+
 .search-text input::placeholder {
   font-weight: 400;
   font-size: 16px;
@@ -168,21 +200,27 @@ header {
   letter-spacing: -0.03em;
   color: #a0a0a0;
 }
+
 .search-text input:focus::-webkit-input-placeholder {
   color: transparent;
 }
+
 .search-text input:focus:-ms-input-placeholder {
   color: transparent;
 }
+
 .search-text input:focus::-ms-input-placeholder {
   color: transparent;
 }
+
 .search-text input:focus::placeholder {
   color: transparent;
 }
+
 .search .search-text input:focus {
   outline: none;
 }
+
 .search .search-button {
   position: absolute;
   top: 0;
@@ -200,8 +238,7 @@ header {
   height: 45px;
 }
 
-.search .search-button
-.search .search-button:hover {
+.search .search-button .search .search-button:hover {
   opacity: 0.8;
 }
 
@@ -225,17 +262,19 @@ main {
   padding: 16px;
   background: #2c2c2e;
 }
+
 .card .title {
   font-family: "SF Pro Display", sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 20px;
 }
+
 .card-description p {
-  font-family: "SF Pro Text", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.375;
@@ -243,16 +282,18 @@ main {
   color: #a0a0a0;
   margin-bottom: 20px;
 }
+
 .social-holder {
   width: 100%;
   margin-bottom: 30px;
 }
+
 .social-holder a {
   display: flex;
   align-items: center;
   background: #2c2c2e;
   margin-bottom: 10px;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 16px;
   line-height: 21px;
   letter-spacing: 0.01em;
@@ -262,26 +303,31 @@ main {
   width: 100%;
   height: 92px;
 }
+
 .social-holder a:last-child {
   margin-bottom: 0;
 }
+
 .social-holder a .link-img {
   margin-right: 16px;
 }
+
 .social-holder a .link-img img {
   width: 100%;
 }
+
 .social-holder a .link-title {
   flex-grow: 1;
 }
+
 .social-link_wrapper {
- display: flex;
- flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .social-holder .link-title {
-  font-family: "SF Pro Display", sans-serif;
-  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
   font-size: 17px;
   line-height: 1.41176;
   letter-spacing: 0.02em;
@@ -289,20 +335,21 @@ main {
 }
 
 .social-holder .link-descr {
-  font-family: "SF Pro Text", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.375;
   letter-spacing: -0.03em;
   color: #fff;
 }
+
 .domain-list {
   margin-bottom: 50px;
 }
 
 .domain-list .title {
-  font-family: "SF Pro Display", sans-serif;
-  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -321,6 +368,7 @@ main {
   -khtml-border-radius: 13px;
   overflow: hidden;
 }
+
 .resp-tab td {
   word-break: break-all;
   border: 1px solid #212122;
@@ -330,50 +378,68 @@ main {
   background: #2c2c2e;
 }
 
-.resp-tab th, .resp-tab td {
+.resp-tab th,
+.resp-tab td {
   padding: 10px 20px;
   font-size: 13px;
   border: none;
-  font-family: "SF Pro Text", sans-serif;   
+  font-family: 'Roboto', sans-serif;
   vertical-align: top;
   border: 1px solid #212122;
   color: #fff;
+  text-wrap: nowrap;
+
 }
+
 .resp-tab th {
   border: 1px solid #2c2c2e;
   padding: 12px 16px;
   width: 179px;
   height: 40px;
   background: #212122;
-  font-family: "SF Pro Text", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.375;
   letter-spacing: -0.03em;
 }
+
 .resp-tab tr {
   background: #edf7ff;
   border-radius: 13px 0 0 0;
 }
+
 .resp-tab td span {
-  background: #337AB7;
   color: #FFF;
   display: none;
   font-size: 11px;
   font-weight: bold;
-  font-family: "SF Pro Text", sans-serif;   
-  text-transform: uppercase;       
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
   padding: 5px 10px;
   position: absolute;
   top: 0;
-  left: 0;   
+  left: 0;
 }
 
 @media (max-width: 411px) {
   header {
     padding-top: 25px;
   }
+
   .search .search-button {
     width: 56px;
+  }
+
+  .card .title {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 380px) {
+
+  .resp-tab th,
+  .resp-tab td {
+    padding: 12px 8px;
   }
 }
