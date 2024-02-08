@@ -282,6 +282,9 @@ main {
   color: #a0a0a0;
   margin-bottom: 20px;
 }
+.card-description p:last-child {
+  margin-bottom: 0;
+}
 
 .social-holder {
   width: 100%;
