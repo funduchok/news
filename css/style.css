@@ -379,6 +379,7 @@ main {
   width: 179px;
   height: 40px;
   background: #2c2c2e;
+  white-space: nowrap;
 }
 
 .resp-tab th,
@@ -390,7 +391,6 @@ main {
   vertical-align: top;
   border: 1px solid #212122;
   color: #fff;
-  white-space: nowrap;
 }
 
 .resp-tab th {
